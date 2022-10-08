@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Project Name
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Full-stack Movie App
 
-## Available Scripts
+# Description the project.
 
-In the project directory, you can run:
+Full-stack movie app is a website that shows you all the latest Tv-shows and Movies, you can browse, like and comment your favorites, delete a movie, you can get the details about a particular show and movie.
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Languages
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  - [ ] React js
+  - [ ] MongoDB
+  - [ ] Bootstrap
+  - [ ] JavaScript
+  - [ ] Restful API
 
-### `npm test`
+- Terminologies used
+  - [ ] External API
+  - [ ] Jest
+  - [ ] Github workflow
+  - [ ] Gitflow
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Click here for live version
 
-### `npm run build`
+- live demo: [under construction]()
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Clone this repo <https://github.com/NickEmma/full-stack-movie-app>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  ```bash
+  git clone https://github.com/NickEmma/full-stack-movie-app
+  ```
 
-### `npm run eject`
+- Navigate to full-stack-movie-app folder/directory
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  ```bash
+  cd full-stack-movie-app
+  ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- On the command line, at the project's root, run `npm install` to install app dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Next, run `npm start` which will run the app in the development mode.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Learn More
+- ALTERNATIVELY
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  - Just run npm install which will install all the dependecies and then run `npm start` which will start the development server .
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
 
-### Code Splitting
+👤 **Nicholas Emmanuel**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- GitHub: [@NickEmma](https://github.com/NickEmma)
+- Twitter: [@techieEmma](https://twitter.com/techieEmma)
+- LinkedIn: [@Nicholas Emmanuel](https://www.linkedin.com/in/techieemma/)
 
-### Analyzing the Bundle Size
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions, issues, and feature requests are welcome!
+thanks: [issue-link](https://github.com/NickEmma/full-stack-movie-app/issues)
 
-### Making a Progressive Web App
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Give a ⭐️ if you like this project!
 
-### Advanced Configuration
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Microverse
+- LazyCoders
+- Coding Partner
+- Inspiration
+- etc
 
-### Deployment
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./LICENSE) licensed.
