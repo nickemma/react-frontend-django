@@ -34,6 +34,10 @@ class Movies extends Component {
     this.setState({ currentPage: page });
   };
 
+  handleGenreSelect = (genre) => {
+    console.log(genre);
+  };
+
   render() {
     const { length: count } = this.state.movies;
     const { pageSize, currentPage, movies: allMovies } = this.state;
@@ -44,10 +48,12 @@ class Movies extends Component {
 
     return (
       <div className="row">
-        <div className="col-2">
+        <div className="col-3">
           <Filter
             items={this.state.genres}
-            onItemSelect={this.state.handleItemSelect}
+            textProperty="name"
+            ValueProperty="_id"
+            onItemSelect={this.state.handleGenreSelect}
           />
         </div>
         <div className="col">

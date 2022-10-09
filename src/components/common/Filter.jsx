@@ -1,12 +1,11 @@
 import React from 'react';
-import { getGenres } from '../../services/fakeGenreService';
 
-const Filter = () => {
+const Filter = ({ items, textProperty, ValueProperty }) => {
   return (
     <ul className="list-group">
-      {getGenres().map((genre) => (
-        <li key={genre._id} className="list-group-item">
-          {genre.name}
+      {items.map((items) => (
+        <li key={items[ValueProperty]} className="list-group-item">
+          {items[textProperty]}
         </li>
       ))}
     </ul>
