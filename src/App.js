@@ -1,10 +1,10 @@
-import './App.css';
+import Movies from './components/Movies';
 
 function App() {
   return (
-    <div className="App">
-      <h1>hello world</h1>
-    </div>
+    <main className="container">
+      <Movies />
+    </main>
   );
 }
 
