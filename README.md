@@ -21,6 +21,8 @@ Full-stack movie app is a website that shows you all the latest Tv-shows and Mov
 - Terminologies used
   - [ ] External API
   - [ ] Jest
+  - [ ] integration
+  - [ ] social testing
   - [ ] Github workflow
   - [ ] Gitflow
 
@@ -39,7 +41,7 @@ Full-stack movie app is a website that shows you all the latest Tv-shows and Mov
 - Navigate to full-stack-movie-app folder/directory
 
   ```bash
-  cd full-stack-movie-app
+  cd testing
   ```
 
 - On the command line, at the project's root, run `npm install` to install app dependencies
