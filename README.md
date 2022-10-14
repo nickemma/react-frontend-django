@@ -4,7 +4,7 @@ testing
 
 # Description the project.
 
-Full-stack movie app is a website that shows you all the latest Tv-shows and Movies, you can browse, like and comment your favorites, delete a movie, you can get the details about a particular show and movie.
+testing app is a website that shows you all the latest Tv-shows and Movies, you can browse, like and comment your favorites, delete a movie, you can get the details about a particular show and movie.
 
 ## Built With
 
@@ -32,13 +32,13 @@ Full-stack movie app is a website that shows you all the latest Tv-shows and Mov
 
 ## Getting Started
 
-- Clone this repo <https://github.com/NickEmma/full-stack-movie-app>
+- Clone this repo <https://github.com/NickEmma/testing>
 
   ```bash
-  git clone https://github.com/NickEmma/full-stack-movie-app
+  git clone https://github.com/NickEmma/testing
   ```
 
-- Navigate to full-stack-movie-app folder/directory
+- Navigate to testing folder/directory
 
   ```bash
   cd testing
@@ -52,7 +52,7 @@ Full-stack movie app is a website that shows you all the latest Tv-shows and Mov
 
 - ALTERNATIVELY
 
-  - Just run npm install which will install all the dependecies and then run `npm start` which will start the development server .
+  - Just run npm install which will install all the dependencies and then run `npm start` which will start the development server .
 
 ## Author
 
@@ -65,7 +65,7 @@ Full-stack movie app is a website that shows you all the latest Tv-shows and Mov
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-thanks: [issue-link](https://github.com/NickEmma/full-stack-movie-app/issues)
+thanks: [issue-link](https://github.com/NickEmma/testing/issues)
 
 ## Show your support
 
