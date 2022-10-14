@@ -12,6 +12,8 @@ Full-stack movie app is a website that shows you all the latest Tv-shows and Mov
 
   - [ ] React js
   - [ ] MongoDB
+  - [ ] Node js
+  - [ ] Express js
   - [ ] typescript
   - [ ] JavaScript
   - [ ] Restful API
