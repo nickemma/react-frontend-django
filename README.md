@@ -1,6 +1,6 @@
 # Project Name
 
-Full-stack Movie App
+testing
 
 # Description the project.
 
@@ -12,7 +12,7 @@ Full-stack movie app is a website that shows you all the latest Tv-shows and Mov
 
   - [ ] React js
   - [ ] MongoDB
-  - [ ] Bootstrap
+  - [ ] typescript
   - [ ] JavaScript
   - [ ] Restful API
 
