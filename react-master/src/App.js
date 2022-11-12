@@ -1,6 +1,7 @@
 import Employee from './components/Employee';
 import './index.css';
 import { useState } from 'react';
+import AddEmployee from './components/AddEmployee';
 // import { v4 as uuidv4 } from 'uuid';
 
 function App() {
@@ -54,19 +55,32 @@ function App() {
     setEmployees(updateList);
   };
 
+  const newEmployee = (name, role, img) => {
+    const newEmployee = {
+      id: Math.floor(Math.random() * 10000) + 1,
+      name: name,
+      role: role,
+      img: img,
+    };
+    setEmployees([...Employees, newEmployee]);
+  };
+
   return (
-    <div className="flex flex-wrap justify-center">
-      {Employees.map((employee) => (
-        <Employee
-          key={employee.id}
-          id={employee.id}
-          name={employee.name}
-          role={employee.role}
-          img={employee.img}
-          updateEmployee={updateEmployee}
-        />
-      ))}
-    </div>
+    <>
+      <div className="flex flex-wrap justify-center">
+        {Employees.map((employee) => (
+          <Employee
+            key={employee.id}
+            id={employee.id}
+            name={employee.name}
+            role={employee.role}
+            img={employee.img}
+            updateEmployee={updateEmployee}
+          />
+        ))}
+      </div>
+      <AddEmployee newEmployee={newEmployee} />
+    </>
   );
 }
 
