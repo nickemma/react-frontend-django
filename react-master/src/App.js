@@ -69,7 +69,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center mt-4">
         {Employees.map((employee) => (
           <Employee
             key={employee.id}
