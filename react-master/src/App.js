@@ -2,6 +2,7 @@ import Employee from './components/Employee';
 import './index.css';
 import { useState } from 'react';
 import AddEmployee from './components/AddEmployee';
+import Header from './components/Header';
 // import { v4 as uuidv4 } from 'uuid';
 
 function App() {
@@ -67,6 +68,7 @@ function App() {
 
   return (
     <>
+      <Header />
       <div className="flex flex-wrap justify-center">
         {Employees.map((employee) => (
           <Employee
