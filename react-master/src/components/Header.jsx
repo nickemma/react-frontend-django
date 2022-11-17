@@ -149,7 +149,7 @@ export default function Header(props) {
           </>
         )}
       </Disclosure>
-      {props.children}
+      <div>{props.children}</div>
     </>
   );
 }
