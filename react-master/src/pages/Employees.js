@@ -7,7 +7,7 @@ function Employees() {
   const [Employees, setEmployees] = useState([
     {
       id: 1,
-      name: 'John Doe',
+      name: 'Said Lassri',
       role: 'developer',
       img: 'https://lazy-coders.netlify.app/static/media/trainer3.1b157a017adb37741dd7.png',
     },
@@ -19,13 +19,13 @@ function Employees() {
     },
     {
       id: 3,
-      name: 'Said Lassri',
+      name: 'Chrispaix Kaze',
       role: 'Engineer',
       img: 'https://lazy-coders.netlify.app/static/media/trainer4.edd3a24a262a97747b1b.png',
     },
     {
       id: 4,
-      name: 'Jane Doe',
+      name: 'Htet Niang Rex',
       role: 'Manager',
       img: 'https://lazy-coders.netlify.app/static/media/trainer11.f65ad628e627ba4d6c24.png',
     },
