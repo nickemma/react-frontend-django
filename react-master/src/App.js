@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Dictionary from './pages/Dictionary';
 import Definition from './pages/Definition';
 import NotFound from './components/NotFound';
+import Customers from './components/Customers';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Employees />} />
           <Route path="/dictionary" element={<Dictionary />} />
           <Route path="/definition/:wordId" element={<Definition />} />
+          <Route path="/customers" element={<Customers />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Header>
