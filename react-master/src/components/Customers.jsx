@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Customers = () => {
   const [customer, setCustomer] = useState([]);
@@ -21,10 +22,11 @@ const Customers = () => {
       {customer
         ? customer.map((customer) => {
             return (
-              <div key={customer.id}>
-                <h2>{customer.name}</h2>
-                <p>{customer.industry}</p>
-              </div>
+              <ul key={customer.id}>
+                <li>
+                  <Link to={'/customers/' + customer.id}>{customer.name}</Link>
+                </li>
+              </ul>
             );
           })
         : null}
