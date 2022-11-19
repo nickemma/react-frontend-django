@@ -9,7 +9,6 @@ const Customers = () => {
       .then((response) => response.json())
       .then((data) => {
         setCustomer(data.customers);
-        console.log(data);
       })
       .catch((error) => {
         console.log(error);

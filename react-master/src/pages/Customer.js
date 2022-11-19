@@ -1,32 +1,30 @@
 import React from 'react';
-import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 
 const Customer = () => {
   const { id } = useParams();
-  const [customer, setCustomer] = useState('');
+  const [customer, setCustomer] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:8000/customers/' + id)
-      .then((response) => {
-        return response.json();
-      })
-      .then((data) => {
-        setCustomer(data.Customer);
-      });
+    const url = `http://localhost:8000/api/customers/${id}`;
+    fetch(url)
+      .then((res) => res.json())
+      .then((data) => setCustomer(data.customer));
+  }, []);
 
-    return (
-      <>
-        {customer ? (
-          <div>
-            <p>{customer.id}</p>
-            <h2>{customer.name}</h2>
-            <p>{customer.industry}</p>
-          </div>
-        ) : null}
-      </>
-    );
-  });
+  return (
+    <>
+      {customer ? (
+        <div>
+          <p>{customer.id}</p>
+          <p>{customer.name}</p>
+          <p>{customer.industry}</p>
+        </div>
+      ) : null}
+      <Link to="/customers">Go Back</Link>
+    </>
+  );
 };
 
 export default Customer;
